@@ -5,9 +5,9 @@ Includes scripts for plotting band structure (no spin, spin), density of states 
 
 
 
-################
-# transform.py #
-################
+
+## transform.py 
+
 
 General purpose code to translate, rotate, stretch, and shear unit cells / atoms in the POSCAR format used by VASP.
 See transform.py for more details on functionality.
