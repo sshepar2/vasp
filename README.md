@@ -19,6 +19,11 @@ A regular bash script can be used for input and sucessively call transform.py mu
 
 Can be easily implemented into an automated workflow.
 
+### molecule_analyzer.m
+
+Very specific Matlab script which uses the XDATCAR file to initially groups atoms into molecules and monitor breaking among
+other properties throughout an ab initio molecular dynamics calculation.
+
 
 ## Spectral Properties
 
