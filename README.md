@@ -17,7 +17,7 @@ is very useful especially if performing a series of transformations on the cell 
 
 A regular bash script can be used for input and sucessively call transform.py multiple times.
 
-Can be implemented into an automated workflow easily.
+Can be easily implemented into an automated workflow.
 
 
 #############
