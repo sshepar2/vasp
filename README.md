@@ -38,3 +38,21 @@ plots with the desired data.
 
 Matlab script and live script version used to plot density of states from the DOSCAR file.
 
+
+## Real Space
+
+### psinks.m
+
+Matlab script used to plot real space wave functions from a text file created from the WAVECAR file.
+
+### locpot.m
+
+Simple Matlab script which is used to plot the real space local potential from the LOCPOT file.
+
+
+
+
+
+
+
+
