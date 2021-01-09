@@ -19,10 +19,15 @@ A regular bash script can be used for input and sucessively call transform.py mu
 
 Can be easily implemented into an automated workflow.
 
+An examlpe script is in vasp/examples/.
+run DMABN_transform.sh which uses POSCAR in the same directory which calls transform.py multiple times.
+
 ### molecule_analyzer.m
 
 Very specific Matlab script which uses the XDATCAR file to initially groups atoms into molecules and monitor breaking among
 other properties throughout an ab initio molecular dynamics calculation.
+
+Read through the script as it requires user input in various places.
 
 ### select.py
 
@@ -34,7 +39,6 @@ Python script to quickly add selective dynamics tags to POSCAR type files.
 ### vasprun.py
 
 Code which parses the vasprun.xml file to collect band structure data and output easy to manipulate matlab objects for plotting.
-
 
 
 ### bands_xml.m
