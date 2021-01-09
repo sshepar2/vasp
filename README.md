@@ -24,6 +24,10 @@ Can be easily implemented into an automated workflow.
 Very specific Matlab script which uses the XDATCAR file to initially groups atoms into molecules and monitor breaking among
 other properties throughout an ab initio molecular dynamics calculation.
 
+### select.py
+
+Python script to quickly add selective dynamics tags to POSCAR type files.
+
 
 ## Spectral Properties
 
