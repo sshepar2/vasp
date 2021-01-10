@@ -74,10 +74,11 @@ GC1501.txt GC111.txt
 These text files are generated from the WAVECAR file using an external program. See psinks.m for details
 for where to get and how to use the program.
 
-A .png of a wavefunction plotted from the BeS zincblende system calculated with VASP is available under
-/vasp/examples/
+An exemplary .png of a wavefunction visualized using the psinks.m script is available under /vasp/examples/. 
 
 VASPWavefunction.png
+
+The wavefunction was calculated with VASP for a zincblende BeS structure.
 
 
 ### locpot.m
