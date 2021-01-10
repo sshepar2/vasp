@@ -68,9 +68,11 @@ Matlab script and live script version used to plot density of states from the DO
 Matlab script used to plot real space wave functions from a text file created from the WAVECAR file.
 
 Two text files which can be used with the Matlab script are provided under vasp/examples/
-GC1501.txt
-GC111.txt
 
+GC1501.txt GC111.txt
+
+These text files are generated from the WAVECAR file using an external program. See psinks.m for details
+for where to get and how to use the program.
 
 ### locpot.m
 
