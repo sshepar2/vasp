@@ -67,16 +67,27 @@ Matlab script and live script version used to plot density of states from the DO
 
 Matlab script used to plot real space wave functions from a text file created from the WAVECAR file.
 
-Two text files which can be used with the Matlab script are provided under vasp/examples/
+Two text files which can be used with the Matlab script are provided under /vasp/examples/
 
 GC1501.txt GC111.txt
 
 These text files are generated from the WAVECAR file using an external program. See psinks.m for details
 for where to get and how to use the program.
 
+A .png of a wavefunction plotted from the BeS zincblende system calculated with VASP is available under
+/vasp/examples/
+
+VASPWavefunction.png
+
+
 ### locpot.m
 
 Simple Matlab script which is used to plot the real space local potential from the LOCPOT file.
+
+An image with the xy-averaged local potential is provided under vasp/examples/
+The plot is made using the Matlab script, the image in the background is the corresponding
+system rendered using the software Vesta.
+
 
 
 
