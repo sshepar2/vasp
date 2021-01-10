@@ -19,7 +19,7 @@ A regular bash script can be used for input and sucessively call transform.py mu
 
 Can be easily implemented into an automated workflow.
 
-An examlpe script is in vasp/examples/.
+An example script is in vasp/examples/.
 run DMABN_transform.sh which uses POSCAR in the same directory which calls transform.py multiple times.
 
 ### molecule_analyzer.m
@@ -28,6 +28,15 @@ Very specific Matlab script which uses the XDATCAR file to initially groups atom
 other properties throughout an ab initio molecular dynamics calculation.
 
 Read through the script as it requires user input in various places.
+
+Specifically tracts the positions of ethylene carbonate molecules and checks when they decompose
+on calcium surfaces.
+
+There is an XDATCAR file under /vasp/examples/ethylene_carbonate/ which can be used with the Matlab script.
+
+Various output files and plots are included in the same directory to illustrate what data is gathered from the trajectory.
+The output files are for 5820 time steps (1 fs time step) whereas the XDATCAR provided contains only the
+first 1500 time steps due to the large file size.
 
 ### select.py
 
@@ -57,6 +66,11 @@ Matlab script and live script version used to plot density of states from the DO
 ### psinks.m
 
 Matlab script used to plot real space wave functions from a text file created from the WAVECAR file.
+
+Two text files which can be used with the Matlab script are provided under vasp/examples/
+GC1501.txt
+GC111.txt
+
 
 ### locpot.m
 
