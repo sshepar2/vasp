@@ -42,6 +42,16 @@ first 1500 time steps due to the large file size.
 
 Python script to quickly add selective dynamics tags to POSCAR type files.
 
+### build.sh
+
+Takes given time step in the XDATCAR files and creates a CONTCAR style file and .xyz file.
+Also an option to add a column titled 'Orbital Type' in the .xyz file.
+
+### build_mult.sh
+
+Calls on build.sh to create CONTCARs and .xyz files for many steps in the XDATCAR file.
+Must update path to build.sh script on line 36 of build_mult.sh.
+
 
 ## Spectral Properties
 
